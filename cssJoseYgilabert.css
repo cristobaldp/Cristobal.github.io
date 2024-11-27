@@ -14,7 +14,8 @@ html {
   body {
     /* Estilos opcionales para el cuerpo (por ejemplo, para habilitar el desplazamiento suave en toda la página) */
     overflow-y: auto;
-    .elemento {
-      background: linear-gradient(to right, #f0f, #ff0, #0ff);
-    } 
+   
   }
+  .elemento {
+    background: linear-gradient(to right, #f0f, #ff0, #0ff);
+  } 
