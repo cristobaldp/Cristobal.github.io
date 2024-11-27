@@ -13,7 +13,6 @@ enlacesMenu.forEach(enlace => {
     const EnlaceDestino = document.getElementById(idEnlace);
       EnlaceDestino.scrollIntoView({ behavior: 'smooth' }); // Desplaza suavemente al elemento
     
-
       
   });
 });

@@ -4,6 +4,7 @@ html {
   
   #menu {
     /* Estilos para el menú (por ejemplo, fondo, relleno) */
+    
   }
   
   #menu a {
@@ -13,4 +14,7 @@ html {
   body {
     /* Estilos opcionales para el cuerpo (por ejemplo, para habilitar el desplazamiento suave en toda la página) */
     overflow-y: auto;
+    .elemento {
+      background: linear-gradient(to right, #f0f, #ff0, #0ff);
+    } 
   }
