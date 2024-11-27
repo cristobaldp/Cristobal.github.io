@@ -3,24 +3,86 @@ html {
     body {
       background-color: #E8F5E9; /* Azul claro */
       .recuadro1 {
-        background-color: #5cd2cc; /* Verde agua */
-        border: 2px solid #ad2323; /* Verde más oscuro */
-        border-radius: 10px;
-        padding: 30px;
+        background-color: #5cd2cc; /* color del interior del recuadro*/
+        border: 2px solid #ad2323; /* color de la linea que recubre el recuadro*/
+        border-radius: 20px;/* Grosor del borde del recuadro*/
+        padding: 30px;/*largo del recuadro*/
         box-shadow: 2px 2px 5px #888888;
-        width: 1100px;
+        width: 1100px;/* Tamaño del reacuadro*/
         margin: 20px auto; /* Centra el recuadro horizontalmente */
       }
 
       .recuadro2 {
-        background-color: #e0f2f1; /* Verde agua */
-        border: 2px solid #4CAF50; /* Verde más oscuro */
-        border-radius: 10px;
-        padding: 30px;
+        background-color: #e0f2f1; /* color del interior del recuadro*/
+        border: 2px solid #4CAF50; /* color de la linea que recubre el recuadro*/
+        border-radius: 20px;/* Grosor del borde del recuadro*/
+        padding: 30px;/* Largo del reacuadro*/
         box-shadow: 2px 2px 5px #888888;
-        width: 1100px;
+        width: 1100px;/* Tamaño del reacuadro*/
         margin: 20px auto; /* Centra el recuadro horizontalmente */
       }
+
+      .recuadro3 {
+        background-color: #f3f9f3; /* color del interior del recuadro*/
+        border: 2px solid #4CAF50; /* color de la linea que recubre el recuadro*/
+        border-radius: 20px;/* Grosor del borde del recuadro*/
+        padding: 30px;/* Largo del reacuadro*/
+        box-shadow: 2px 2px 5px #888888;
+        width: 1100px;/* Tamaño del reacuadro*/
+        margin: 20px auto; /* Centra el recuadro horizontalmente */
+      }
+
+      .recuadro4 {
+        background-color: #f3f9f3; /* color del interior del recuadro*/
+        border: 2px solid #112e8b; /* color de la linea que recubre el recuadro*/
+        border-radius: 20px;/* Grosor del borde del recuadro*/
+        padding: 30px;/* Largo del reacuadro*/
+        box-shadow: 2px 2px 5px #888888;
+        width: 1100px;/* Tamaño del reacuadro*/
+        margin: 20px auto; /* Centra el recuadro horizontalmente */
+      }
+
+      .recuadro5 {
+        background-color: #f3f9f3; /* color del interior del recuadro*/
+        border: 2px solid #ac20e7; /* color de la linea que recubre el recuadro*/
+        border-radius: 20px;/* Grosor del borde del recuadro*/
+        padding: 30px;/* Largo del reacuadro*/
+        box-shadow: 2px 2px 5px #888888;
+        width: 1100px;/* Tamaño del reacuadro*/
+        margin: 20px auto; /* Centra el recuadro horizontalmente */
+      }
+      
+      .recuadro6 {
+        background-color: #f3f9f3; /* color del interior del recuadro*/
+        border: 2px solid #e4132c; /* color de la linea que recubre el recuadro*/
+        border-radius: 20px;/* Grosor del borde del recuadro*/
+        padding: 30px;/* Largo del reacuadro*/
+        box-shadow: 2px 2px 5px #888888;
+        width: 1100px;/* Tamaño del reacuadro*/
+        margin: 20px auto; /* Centra el recuadro horizontalmente */
+      }
+
+      .recuadro7 {
+        background-color: #1b95c9; /* color del interior del recuadro*/
+        border: 2px solid #20188b; /* color de la linea que recubre el recuadro*/
+        border-radius: 20px;/* Grosor del borde del recuadro*/
+        padding: 30px;/* Largo del reacuadro*/
+        box-shadow: 2px 2px 5px #888888;
+        width: 1100px;/* Tamaño del reacuadro*/
+        margin: 20px auto; /* Centra el recuadro horizontalmente */
+      }
+
+      .recuadro8 {
+          background-color: #b71cde; /* color del interior del recuadro*/
+          border: 2px solid #20188b; /* color de la linea que recubre el recuadro*/
+          border-radius: 30px;/* Grosor del borde del recuadro*/
+          padding: 73px;/* Largo del reacuadro*/
+          box-shadow: 2px 2px 5px #888888;
+          width: 1100px;/* Tamaño del reacuadro*/
+          margin: 20px auto; /* Centra el recuadro horizontalmente */
+        }
+      }
+    }
      #botonMenu {
   position: relative;
   top: 50%;
