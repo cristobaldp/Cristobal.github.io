@@ -3,8 +3,8 @@ html {
     body {
       background-color: #E8F5E9; /* Azul claro */
       .recuadro1 {
-        background-color: #5cd2cc; /* color del interior del recuadro*/
-        border: 2px solid #ad2323; /* color de la linea que recubre el recuadro*/
+        background-color: #8671a4; /* color del interior del recuadro*/
+        border: 2px solid #000000; /* color de la linea que recubre el recuadro*/
         border-radius: 20px;/* Grosor del borde del recuadro*/
         padding: 30px;/*largo del recuadro*/
         box-shadow: 2px 2px 5px #888888;
