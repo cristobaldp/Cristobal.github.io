@@ -81,8 +81,8 @@ html {
           width: 1100px;/* Tamaño del reacuadro*/
           margin: 20px auto; /* Centra el recuadro horizontalmente */
         }
-      }
-    }
+       
+    
      #botonMenu {
   position: relative;
   top: 50%;
@@ -112,3 +112,11 @@ html {
   background-color: #444;
 }
     
+    
+#ww_4b1947682dfca{
+  position: relative;
+  top: 37%;
+  left: 37%;
+}
+    }
+  }
