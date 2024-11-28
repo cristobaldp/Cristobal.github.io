@@ -85,16 +85,17 @@ html {
     
      #botonMenu {
   position: relative;
-  top: 50%;
-  left: 50%;
- 
+  top: 20%;
+  left: 20%;
+  width: 1150px;
+ height: 30px;
 } 
 #menu {
   /* ... estilos de centrado ... */
   position: relative;
   top: 40%;
   left: 40%;
-  width: 300px;
+  width: 400px;
   background-color: #333;
   color: #fff;
   border-radius: 5px;
