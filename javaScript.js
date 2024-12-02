@@ -36,7 +36,7 @@ document.getElementById('testForm').addEventListener('submit', function(event) {
       tipoRespuesta9: "Respuesta2 correcta",
       tipoRespuesta10:"Respuesta2 correcta",
 
-      tipoRespuesta11:"Respuesta3 correcta",
+      tipoRespuesta11: "Respuesta3 correcta",
       tipoRespuesta12: "Respuesta3 correcta",
       tipoRespuesta13: "Respuesta3 correcta",
       tipoRespuesta14: "Respuesta2 correcta",
@@ -79,7 +79,7 @@ document.getElementById('testForm').addEventListener('submit', function(event) {
       tipoRespuesta48: "Respuesta2 correcta",
       tipoRespuesta49: "Respuesta1 correcta",
       tipoRespuesta50: "Respuesta3 correcta",
-      
+
       tipoRespuesta51: "Respuesta4 correcta",
       tipoRespuesta52: "Respuesta3 correcta",
       tipoRespuesta53: "Respuesta3 correcta",
