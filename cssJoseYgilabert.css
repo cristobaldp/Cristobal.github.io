@@ -87,7 +87,16 @@ html {
           margin: 20px auto; /* Centra el recuadro horizontalmente */
         }
        
-    
+        .recuadro9 {
+          background-color: #f9f9f8; /* color del interior del recuadro*/
+          border: 2px solid #eb8611; /* color de la linea que recubre el recuadro*/
+          border-radius: 30px;/* Grosor del borde del recuadro*/
+          padding: 73px;/* Largo del reacuadro*/
+          box-shadow: 2px 2px 5px #888888;
+          width: 1100px;/* Tamaño del reacuadro*/
+          margin: 20px auto; /* Centra el recuadro horizontalmente */
+        }
+       
      #botonMenu {
   position: relative;
   text-align: center;
