@@ -8,7 +8,7 @@ html {
       background-position: center;
       background-attachment: fixed;
       .recuadro1 {
-        background-color: #8671a4; /* color del interior del recuadro*/
+        background-color: #e3e9f1; /* color del interior del recuadro*/
         border: 2px solid #000000; /* color de la linea que recubre el recuadro*/
         border-radius: 20px;/* Grosor del borde del recuadro*/
         padding: 30px;/*largo del recuadro*/
@@ -78,7 +78,7 @@ html {
       }
 
       .recuadro8 {
-          background-color: #1f6634; /* color del interior del recuadro*/
+          background-color: #b6d9e7; /* color del interior del recuadro*/
           border: 2px solid #20188b; /* color de la linea que recubre el recuadro*/
           border-radius: 30px;/* Grosor del borde del recuadro*/
           padding: 73px;/* Largo del reacuadro*/
