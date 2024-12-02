@@ -20,7 +20,7 @@ enlacesMenu.forEach(enlace => {
 document.getElementById('testForm').addEventListener('submit', function(event) {
   event.preventDefault(); // Evitar que el formulario se envíe
 
-  let totalQuestions = 40; // Número total de preguntas
+  let totalQuestions = 60; // Número total de preguntas
   let correctAnswers = 0; // Contador de respuestas correctas
 
   // Definir las respuestas correctas
@@ -35,6 +35,7 @@ document.getElementById('testForm').addEventListener('submit', function(event) {
       tipoRespuesta8: "Respuesta2 correcta",
       tipoRespuesta9: "Respuesta2 correcta",
       tipoRespuesta10:"Respuesta2 correcta",
+
       tipoRespuesta11:"Respuesta3 correcta",
       tipoRespuesta12: "Respuesta3 correcta",
       tipoRespuesta13: "Respuesta3 correcta",
@@ -45,6 +46,7 @@ document.getElementById('testForm').addEventListener('submit', function(event) {
       tipoRespuesta18: "Respuesta2 correcta",
       tipoRespuesta19: "Respuesta2 correcta",
       tipoRespuesta20: "Respuesta4 correcta",
+
       tipoRespuesta21: "Respuesta2 correcta",
       tipoRespuesta22: "Respuesta3 correcta",
       tipoRespuesta23: "Respuesta2 correcta",
@@ -55,6 +57,7 @@ document.getElementById('testForm').addEventListener('submit', function(event) {
       tipoRespuesta28: "Respuesta1 correcta",
       tipoRespuesta29: "Respuesta4 correcta",
       tipoRespuesta30: "Respuesta3 correcta",
+
       tipoRespuesta31: "Respuesta4 correcta",
       tipoRespuesta32: "Respuesta2 correcta",
       tipoRespuesta33: "Respuesta3 correcta",
@@ -65,6 +68,7 @@ document.getElementById('testForm').addEventListener('submit', function(event) {
       tipoRespuesta38: "Respuesta4 correcta",
       tipoRespuesta39: "Respuesta2 correcta",
       tipoRespuesta40: "Respuesta3 correcta",
+
       tipoRespuesta41: "Respuesta2 correcta",
       tipoRespuesta42: "Respuesta2 correcta",
       tipoRespuesta43: "Respuesta2 correcta",
@@ -75,6 +79,7 @@ document.getElementById('testForm').addEventListener('submit', function(event) {
       tipoRespuesta48: "Respuesta2 correcta",
       tipoRespuesta49: "Respuesta1 correcta",
       tipoRespuesta50: "Respuesta3 correcta",
+      
       tipoRespuesta51: "Respuesta4 correcta",
       tipoRespuesta52: "Respuesta3 correcta",
       tipoRespuesta53: "Respuesta3 correcta",
