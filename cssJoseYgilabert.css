@@ -1,7 +1,12 @@
 html {
     scroll-behavior: smooth; /* Habilita el desplazamiento suave en toda la página */
     body {
-      background-color: #E8F5E9; /* Azul claro */
+      margin: 0;
+      background-image: url(https://img.freepik.com/vector-gratis/fondo-futurista-tecnologia-degradada_23-2149122416.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
       .recuadro1 {
         background-color: #8671a4; /* color del interior del recuadro*/
         border: 2px solid #000000; /* color de la linea que recubre el recuadro*/
