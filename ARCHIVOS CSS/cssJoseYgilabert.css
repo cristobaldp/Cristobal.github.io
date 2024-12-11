@@ -1,6 +1,5 @@
-html {
-    scroll-behavior: smooth; /* Habilita el desplazamiento suave en toda la página */
-    body {
+
+body {
       margin: 0;
       background-image: url(https://img.freepik.com/vector-gratis/fondo-futurista-tecnologia-degradada_23-2149122416.jpg);
       background-size: 100%;
@@ -135,4 +134,4 @@ html {
   left: 37%;
 }
     }
-  }
+  
