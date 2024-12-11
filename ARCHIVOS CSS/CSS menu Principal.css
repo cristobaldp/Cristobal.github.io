@@ -1,13 +1,20 @@
-
+body {
+    margin: 0;
+      background-image: url(https://img.freepik.com/vector-gratis/fondo-futurista-tecnologia-degradada_23-2149122416.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      
         nav {
-            background-color: #1babc1;
+            background-color: #020555;
             padding: 10px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
         }
         nav ul {
-            list-style: none;
+            list-style: circle;
             margin: 0;
             padding: 0;
             display: flex;
@@ -20,13 +27,16 @@
         }
         nav ul li a {
             text-decoration: none;
-            color: rgb(234, 255, 0);
+            text-align: center;
+            color: rgb(232, 158, 255);
             font-size: 16px;
             padding: 5px 10px;
             transition: background-color 0.3s;
         }
         nav ul li a:hover {
-            background-color: #ff0000;
+            background-color: #000000;
             border-radius: 5px;
         }
+        
+    }
     
