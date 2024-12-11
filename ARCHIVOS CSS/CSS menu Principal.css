@@ -1,26 +1,32 @@
 
         nav {
-            background-color: #333;
+            background-color: #1babc1;
             padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
         nav ul li {
-            margin-right: 15px;
+            margin-right: 5px;
+            flex: 1;
         }
         nav ul li a {
             text-decoration: none;
-            color: white;
+            color: rgb(234, 255, 0);
             font-size: 16px;
             padding: 5px 10px;
             transition: background-color 0.3s;
         }
         nav ul li a:hover {
-            background-color: #555;
+            background-color: #ff0000;
             border-radius: 5px;
         }
     
