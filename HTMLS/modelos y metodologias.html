@@ -1,0 +1,84 @@
+<h1>El proceso unificado de Rational (RUP):</h1>
+<br>
+<p>El proceso RUP se puede describir en función de dos dimensiones:</p>
+<ul>
+    <li><b>Dimensión temporal: </b>se expresa en términos de ciclos, fases, iteraciones e hitos. </li>
+    <li><b>Dimensión estática: </b>se expresa en términos de actividades <em>(activities)</em> productos intermedios <em>(artifacts)</em> perfiles de trabajo o roles <em>(workers)</em> y flujos de trabajo <em>(workflow)</em></li>
+   
+</ul>
+<p>El ciclo de vida se divide en ciclos entendiendo estos como vueltas alrededor de una espiral, y estas, a su vez, como los periodos de tiempo en los que se trabaja sobre una versión completa del sistema. Cada ciclo se compone 
+    de cuatro fases que se realizan secuencialmente:</p>
+    <br>
+    <ol>
+        <li><b>Fase de comienzo<em>(inception):</em></b> El objetivo de esta fase es estudiar la viabilidad del 
+            sistema. Para ello, se establece el objetivo del sistema y se delimita su alcance, 
+            definiendo, además, las estimaciones de recursos y un plan de tiempos general en 
+            el que se establecen los hitos principales, las previsiones financieras, los riesgos 
+            del proyecto y los criterios para su éxito. 
+        </li>
+        <li><b>Fase de elaboracion <em>(elaboration):</em></b> Los objetivos de esta fase son analizar los dominios del problema, desarrolar el plan de proyecto y eliminar los riesgos mas importantes. En esta fase se debe disponer de un prototipo validado de la arquitectura software a partir del cual se puede desarrolar el sistema. </li>
+        <li><b>Fase de construcción <em>(construction):</em></b> Durante esta fase se desarrolla el sistema de 
+            forma iterativa e incremental hasta que esté preparado para su puesta en funcionamiento. Para cada iteración, se seleccionan algunos casos de uso (requisitos), 
+            se refina su análisis y diseño y se procede a su implementación y pruebas. Se realizan tantas iteraciones como sean necesarias hasta que termine la implementación del producto. Como resultado de esta fase, se obtiene el sistema integrado 
+            en las plataformas adecuadas, los manuales de usuario y una descripción de la 
+            versión actual.
+         </li>
+        <li><b>Fase de transición<em>(transition):</em></b> El propósito de esta fase es poner en funcionamiento 
+            el sistema y ponerlo a disposición de los usuarios. En esta fase, suelen surgir nuevas cuestiones que requieren un desarrollo adicional para refinar y ajustar el sistema, corregir problemas o finalizar aspectos que puedan haber sido aplazados. Esta 
+            fase comienza con una versión beta del sistema, que se reemplaza finalmente con 
+            el sistema en producción. 
+        </li>
+    </ol>
+    <br>
+    <p>Cada una de las fases de RUP puede descomponerse en iteraciones. Una <b>iteración</b> es un periodo de tiempo en el que se realiza un conjunto completo de actividades de desarrollo.</p>
+    <p></p>
+    <p>Atendiendo a la dimensión estática, el proceso RUP describe los perfiles o papeles de trabajo <em>(quién)</em> que realizan productos intermedios <em>(qué)</em> como resultado de realizar un conjunto de actividades<em>(cómo)</em> por medio de un flujo de trabajo predefinido <em>(cuándo)</em>. De esta 
+        forma, el RUP establece cuatro elementos de modelado principales: </p>
+    <ul>
+        <li><b>Perfiles o papeles de trabajo <em>(workers):</em> </b> Mediante el papel o rol de trabajo se define el comportamiento y la responsabilidad de una persona o un grupo de personas 
+            que trabajan como una unidad y en equipo. Ejemplos de perfiles son la jefa 
+            o el jefe de un proyecto, las y los diseñadores de pruebas, los programadores y programadoras, etcétera. </li>
+        <li><b>Actividad <em>(activity):</em> </b> Es una unidad de trabajo que lleva a cabo un individuo con un 
+            rol determinado. Por ejemplo, para el papel del jefe o jefa de proyecto, una actividad 
+            podría ser planificar una iteración.</li>
+        <li><b>Producto intermedio <em>(artifact):</em></b> Son elementos de información producidos, modificados 
+            o usados para el desarrollo del software. Son la entrada y la salida de las actividades 
+            y la responsabilidad de los perfiles o roles. </li>
+        <li><b>Flujos de trabajo <em>(workflows):</em></b> Son secuencias de actividades para producir productos intermedios. RUP define nueve flujos de trabajo agrupados en dos clases principales: </li>
+        <h3>Flujos de ingenieria:</h3>
+        <ol>
+            <li><b>Modelado del negocio <em>(business modelling):</em></b> El objetivo es entender el conjunto de procesos de negocio que aparecen dentro de la empresa como un paso 
+                previo a la recogida de requisitos del sistema que se debe desarrollar. </li>
+            <li><b>Requisitos <em>(requirements):</em></b> El objetivo es establaecer <b>requisitos funcionales </b>mediante casos de uso y los <b>requisitos no funcionales.</b></li>
+            <li><b>Análisis y diseño <em>(analysis & design)</em> </b>en esta fase se analizan los requisitos 
+                capturados anteriormente con el objeto de tener una comprensión y descripción más precisa de los mismos, se refinan y se estructuran. </li>
+            <li><b>Implementación <em>(implementation):</em> </b>consiste en programar o implementar el 
+                sistema en términos de componentes, es decir, ficheros de código fuente, 
+                ejecutables, etcétera.</li>
+            <li><b>Pruebas <em>(test):</em></b>incluye crear casos de prueba (especificando qué probar y 
+                cómo realizar la prueba), realizar las pruebas y evaluar sus resultados.</li>  
+            <li><b>Implantación <em>(deployment):</em></b>el objetivo es asegurarse de que el producto está 
+                preparado para ser suministrado al cliente, ajustar el producto de software a 
+                las necesidades del usuario y organizar su entrega y la recepción por parte 
+                del usuario.</li>
+        </ol>
+            <h3>Flujos de apoyo</h3>
+            <ol>
+                <li><b>Gestión de la configuración: </b>control de cambios sobre los productos intermedios.</li>
+                <li><b>Gestión de proyecto: </b>Planificacion del proyecto, gestion de los riesgos y monotorizacion del progreso del proyecto.</li>
+                <li><b>Entorno:</b>cubre la infraestructura necesaria para desarrollar un sistema.</li>
+            </ol> 
+    </ul>
+    <br>
+    <h1>Modelos de desarrollo ágil </h1>
+    <p>En el desarrollo ágil, se pone el <b>énfasis en la entrega al cliente</b>, cada poco tiempo, de 
+        software que funcione, más que en el rigor en la ingeniería del software y en los productos intermedios. Uno de los objetivos es la entrega rápida de software incremental y para 
+        ello se prefiere formar equipos pequeños y bien motivados. </p>
+        <p>La Alianza Ágil ha establecido doce principios de agilidad que son los siguientes:</p>
+    
+
+
+    
+
+
+
