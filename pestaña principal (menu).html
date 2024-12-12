@@ -1,15 +1,25 @@
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Principal del portal Web</title>
-</head>
-<body>
-    <header>
-        <h1 style="text-align: center;">ARCJ INNOVATION DESARROLLO DE SOFTWARE</h1>      
+  <head>
+    <meta charset="UTF-8" />
+    <title>Menù Lateral con Css</title>
+    <link rel="stylesheet" href="ARCHIVOS CSS/CSS menu Principal.css" />
+    <h1> ARCJ INNOVATION</h1>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="btn-menu">
+          <label for="btn-menu">☰</label>
+        </div>
+        <div class="logo">
+          <h1>Secciones del portal web</h1>
+        </div>
     </header>
-    <h2 style="text-align: center;">SECCIONES DEL PORTAL WEB</h2>
-    <header>
+    <div class="capa"></div>
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+      <div class="cont-menu">
         <nav>
             <ul>
                 <li><a href="HTMLS/Clasificación de las empresas de desarrollo de aplicaciones multiplataforma.html" target="_blank">Clasificación de las empresas de desarrollo de aplicaciones multiplataforma</a></li>
@@ -19,17 +29,8 @@
                 <li><a href="HTMLS/Información de los IDEs.html" target="_blank">Información de los IDEs</a></li>
             </ul>
         </nav>
-    </header>  
-
-
-
-
-
-
-</body>
-
-
-
-<script src="Archivos JavaScript/JavaMenuPrincipal.js"></script>
-<link rel="stylesheet" href="ARCHIVOS CSS/CSS menu Principal.css">
+        <label for="btn-menu">✖️</label>
+      </div>
+    </div>
+  </body>
 </html>
