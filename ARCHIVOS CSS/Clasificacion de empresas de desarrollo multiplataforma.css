@@ -138,6 +138,15 @@
   margin: 20px auto; /* Centra el recuadro horizontalmente */
   animation: rotar 10s infinite linear;
 }
+
+.contenedor {
+  display: flex;               /* Usa Flexbox */
+  justify-content: center;     /* Centra horizontalmente */
+  align-items: center;         /* Centra verticalmente */
+  height: 100vh;               /* Hace que el contenedor ocupe toda la altura de la ventana */
+  width: 100%;                 /* Asegura que el contenedor ocupe todo el ancho de la ventana */
+  margin: 0;                   /* Elimina los márgenes predeterminados */
+}
   
 
 
