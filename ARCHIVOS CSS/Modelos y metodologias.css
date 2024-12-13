@@ -119,3 +119,21 @@
     margin: 20px auto; /* Centra el recuadro horizontalmente */
     animation: rotar 10s infinite linear;
   }
+
+  /* Estilo inicial para la imagen */
+#imagen-zoom {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Animación suave */
+}
+
+/* Estilo para la imagen ampliada */
+#imagen-zoom.ampliada {
+  transform: scale(1.5); /* Zoom */
+  border: 2px solid red; /* Añade un borde para verificar que el estilo se aplica */
+}
+
+#ampliada {
+  transform: scale(1.5); /* Zoom */
+  border: 2px solid red; /* Añade un borde para verificar que el estilo se aplica */
+}
+
