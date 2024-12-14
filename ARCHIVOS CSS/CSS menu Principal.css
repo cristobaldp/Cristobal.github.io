@@ -47,8 +47,8 @@ top: 20%;
 }
 .flecha{
 position: fixed;
-top: 35%;
-width: 100vw;
+top: 32%;
+width: 90vw;
 height: 100vh;
 filter: brightness(1.2) contrast(1.1) blur(1px) sepia(1.5);
 }
@@ -63,7 +63,7 @@ filter: brightness(1.2) contrast(1.1) blur(1px) sepia(1.5);
 }
 .posicionMenu {
   width: 90%;
-  max-width: 1200px;
+  max-width: 70%;
   margin: auto;
   justify-content: center;
 
