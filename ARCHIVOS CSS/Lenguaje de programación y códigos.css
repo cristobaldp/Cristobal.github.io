@@ -5,17 +5,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat Alternates", sans-serif;
- 
-  
 }
 
-body {
-    background-image: url(../IMAGENES/imagenFondo2.jpg);
-   
     body {
   
       margin: 0;
-      background-image: url(../IMAGENES/fondoPrincipal.jpg);
+      background-image: url(../IMAGENES/fondoClasificiacionempresas2.jpg);
       background-size:cover;
       background-repeat: repeat;
       background: position 75px;
@@ -24,7 +19,6 @@ body {
       height: 70vh;
     }
 
-  }
   /*Estilos para el encabezado*/
 .header {
   width: 100%;
@@ -133,6 +127,15 @@ body {
   cursor: pointer;
   font-size: 18px;
   /*comentario */
+}
 
-
+.recuadro2 {
+  background-color: #e0f2f1; /* color del interior del recuadro*/
+  border: 2px solid #4CAF50; /* color de la linea que recubre el recuadro*/
+  border-radius: 20px;/* Grosor del borde del recuadro*/
+  padding: 30px;/* Largo del reacuadro*/
+  box-shadow: 2px 2px 5px #888888;
+  width: 1100px;/* Tamaño del reacuadro*/
+  margin: 20px auto; /* Centra el recuadro horizontalmente */
+ 
 }
