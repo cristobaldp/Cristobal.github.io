@@ -1,3 +1,6 @@
+const form = document.getElementById('testForm');
+const resultParagraph = document.getElementById('result');
+
 // Personaliza el número de preguntas y las respuestas correctas
 const totalQuestions = 16;
 const correctAnswers = ['RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta','RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta','RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta','RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta', 'RespuestaCorrecta'];
